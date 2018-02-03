@@ -1,0 +1,29 @@
+[package]
+name = "shelf"
+version = "0.0.2"
+authors = [ "Eliza Weisman <eliza@elizas.website>" ]
+description = "the SOS Horrible ELF library"
+
+[profile.dev]
+opt-level = 3
+debug = true
+rpath = false
+lto = false
+debug-assertions = true
+codegen-units = 1
+panic = "abort"
+
+[profile.release]
+opt-level = 3
+debug = true
+rpath = false
+lto = false
+panic = "abort"
+
+[dependencies]
+bitflags = "1.0"
+
+[dependencies.macro-attr]
+git = "https://github.com/DanielKeep/rust-custom-derive.git"
+version = "0.2.1"
+default-features = false
