@@ -1,0 +1,8 @@
+[package]
+name = "shelf"
+version = "0.0.1"
+authors = ["Eliza Weisman <eliza@buoyant.io>"]
+
+[features]
+std = []
+alloc = []
