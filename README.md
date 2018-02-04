@@ -1,5 +1,7 @@
 # SHELF: SOS Horrible ELF library
 
+[![Build Status](https://travis-ci.org/sos-os/shelf.svg?branch=master)](https://travis-ci.org/sos-os/shelf)
+
 a library for parsing, navigating, and loading 32- and 64-bit
 [Executable and Linkable File]s for the [Stupid Operating System].
 
