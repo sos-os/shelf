@@ -1,0 +1,9 @@
+language: rust
+rust: nightly
+
+env:
+- FEATURES="std"
+- FEATURES=""
+
+script:
+- cargo test --features=$FEATURES
